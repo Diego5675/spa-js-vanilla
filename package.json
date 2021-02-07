@@ -1,0 +1,24 @@
+{
+  "name": "spa-js-vanilla",
+  "version": "1.0.0",
+  "description": "Single Page Application",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack serve --open --mode development"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Diego Pascual",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^7.0.0",
+    "html-webpack-plugin": "^5.0.0",
+    "webpack": "^5.21.1",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
